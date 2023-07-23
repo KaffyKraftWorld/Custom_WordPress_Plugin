@@ -1,0 +1,40 @@
+/* custom-featured-posts.css */
+
+/* Style for the featured posts container */
+.custom-featured-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+/* Style for each featured post */
+.custom-featured-posts article {
+  width: 30%; /* Adjust the width as per your preference */
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-featured-posts h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.custom-featured-posts p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Style for the featured post's featured image */
+.custom-featured-posts .featured-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .custom-featured-posts article {
+      width: 48%; /* Adjust the width for smaller screens */
+  }
+}
